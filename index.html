@@ -11,7 +11,7 @@
 </head>
 <body>
     <nav id="desktop-nav"> 
-        <div class="Logo">RAHUL SANJEEV</div>
+        <div class="logo">RAHUL  SANJEEV</div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">ABOUT</a></li>
@@ -20,6 +20,23 @@
                 <li><a href="#contacts">CONTACTS</a></li>
             </ul>
         </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">RAHUL  SANJEEV</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">ABOUT</a></li>
+            <li><a href="#experiance" onclick="toggleMenu()">EXPERIANCE</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">PROJECTS</a></li>
+            <li><a href="#contacts" onclick="toggleMenu()">CONTACTS</a></li>
+        </div>
+        </div>
+        
     </nav>
     <script src="script.js "></script>
 </body> 
